@@ -1,0 +1,17 @@
+#cover{
+  width: 500px;
+  height: 270px;
+  background: url("http://31.media.tumblr.com/f0cb0d2bc887555434fa3afe0530e1cf/tumblr_n1ipr3bTo11st5lhmo1_1280.jpg") no-repeat;
+  background-position-x: 79%;
+  background-position-y: 171%;
+  background-size: cover;  
+  }
+
+h1{
+  margin: 0px;
+  padding-top: 85px;
+}
+
+.cover-text {
+  text-align: center;
+}
