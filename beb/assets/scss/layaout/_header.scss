@@ -3,11 +3,16 @@
   height: $header-altezza;
   background: $verde-trasparente;
   position: fixed;
+  z-index: 1;
   .header-col{
     height: $header-altezza;
 
     .logo{
       padding: 15px 0px;
+      }
+
+      .btn-lc-default{
+        margin-top: 13px;
       }
    }
  }

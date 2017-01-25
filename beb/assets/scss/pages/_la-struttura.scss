@@ -17,6 +17,12 @@ iframe {
 .room {
   @extend %full-width;
 
+  .footer{
+     .btn-lc-default{
+       float: right;
+    }
+  }
+
   .full-width {
     @extend %full-width;
 }
