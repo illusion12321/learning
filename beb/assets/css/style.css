@@ -1,11 +1,14 @@
+
+
+
 body {
     font: 12px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.row h1 {
+h1 {
     font: inherit;
     color: #181818;
-    font-size: 16px;
+    font-size: 36px;
     line-height: 16px;
     margin-bottom: 15px;
     text-align: justify;
@@ -14,7 +17,7 @@ body {
 h2 {
     font: inherit;
     color: #7d7d7d;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 16px;
     margin-bottom: 15px;
     text-align: justify;
@@ -31,7 +34,7 @@ p {
 b {
     font-weight: bold;
     color: #333;
-    font-size: 14, 5px;
+    font-size: 14px/5px;
     text-align: justify;
 }
 
@@ -39,63 +42,6 @@ a {
     color: #525252;
     text-decoration: none;
 }
-
-
-/* GRID SYSTEM
-
-.col1 {
-    width: 8.33333333%;
-}
-
-.col2 {
-    width: 16.66666666%;
-}
-
-.col3 {
-    width: 24.99999999%;
-}
-
-.col4 {
-    width: 33.33333332%;
-}
-
-.col5 {
-    width: 41.66666665%;
-}
-
-.col6 {
-    width: 49.99999998%;
-}
-
-.col7 {
-    width: 58.33333331%;
-}
-
-.col8 {
-    width: 66.66666664%;
-}
-
-.col9 {
-    width: 74.99999997%;
-}
-
-.col10 {
-    width: 83.3333333%;
-}
-
-.col11 {
-    width: 91.66666663%;
-}
-
-.col12 {
-    width: 99.99999996%;
-}
-
-.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
-    float: left;
-}
-*/
-
 
 #cover {
     max-width: 100%;
@@ -114,8 +60,9 @@ a {
     width: 100%;
 }
 
-.inline {
-    float: left;
+.full-width {
+    width: 100%;
+    display: block;
 }
 
 .video iframe {
