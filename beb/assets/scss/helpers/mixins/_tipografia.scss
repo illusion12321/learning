@@ -1,0 +1,6 @@
+@mixin titolo ($font-size, $colore: $colore-testo, $altezza: $spazio-linea){
+  color: $colore;
+  font-size: $font-size;
+  line-height: $altezza;
+  margin-bottom: 15px;
+}

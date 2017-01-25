@@ -4,61 +4,47 @@ a.link-button:hover {
   color: #ffffff;
   transition: all .2s linear; }
 
+.header, .cover, iframe, .room, .room .full-width {
+  max-width: 100%;
+  width: 100%;
+  display: block; }
+
 body {
   font: 12px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1 {
-  font: inherit;
   color: #181818;
   font-size: 36px;
   line-height: 16px;
-  margin-bottom: 15px;
-  text-align: justify; }
+  margin-bottom: 15px; }
 
 h2 {
-  font: inherit;
   color: #7d7d7d;
   font-size: 20px;
   line-height: 16px;
-  margin-bottom: 15px;
-  text-align: justify; }
+  margin-bottom: 15px; }
 
 p {
-  text-align: left;
   margin: 0 0 15px 0;
   font-size: 12px;
-  color: #525252;
-  font: inherit; }
+  color: #525252; }
 
 b {
   font-weight: bold;
-  color: #333;
-  font-size: 14px/5px;
-  text-align: justify; }
+  color: #333333; }
 
 a {
   color: #525252;
   text-decoration: none; }
 
 .header {
-  width: 100%;
   height: 50px;
   background: rgba(48, 160, 46, 0.8);
   position: fixed; }
-  .header .grid6 {
-    height: 100%; }
-    .header .grid6 .link-button a {
-      background: #1a74be;
-      color: #ffffff;
-      border-radius: 3px;
-      padding: 5px 15px;
-      border: none;
-      color: #ffffff;
-      font-weight: bold;
-      font-size: 10px;
-      text-transform: uppercase; }
-      .header .grid6 .link-button a img {
-        padding: 15px 0px; }
+  .header .header-col {
+    height: 50px; }
+    .header .header-col .logo {
+      padding: 15px 0px; }
 
 a.link-button {
   font-size: 10px;
@@ -69,23 +55,12 @@ a.link-button {
   padding: 5px 15px;
   border-radius: 3px; }
 
-#cover {
-  max-width: 100%;
+.cover {
   height: 230px;
   background-image: url("http://percorsoverde.it/wp-content/uploads/2012/07/itemtevere3-1200x230.jpg");
   background-size: cover; }
 
-iframe {
-  width: 100%; }
-  iframe .inline {
-    width: 100%; }
-  iframe .testo-video {
-    padding-left: 24px; }
-
-.room {
-  width: 100%; }
-  .room .full-width {
-    width: 100%;
-    display: block; }
+.testo-video {
+  padding-left: 24px; }
 
 /*# sourceMappingURL=style.css.map */
