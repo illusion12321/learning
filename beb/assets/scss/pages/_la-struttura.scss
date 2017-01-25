@@ -1,0 +1,26 @@
+#cover {
+  max-width: $width-tot;
+  height: 230px;
+  background-image: url("http://percorsoverde.it/wp-content/uploads/2012/07/itemtevere3-1200x230.jpg");
+  background-size: cover;
+}
+
+iframe {
+  width: $width-tot;
+
+  .inline {
+      width: $width-tot;
+  }
+
+  .testo-video {
+      padding-left: 24px;
+  }
+}
+
+.room {
+width: $width-tot;
+  .full-width {
+      width: $width-tot;
+      display: block;
+}
+}
