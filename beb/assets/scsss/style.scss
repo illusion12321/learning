@@ -1,6 +1,92 @@
-$bianco: #ffffff;
-$nero: #181818;
-$grigio: #7d7d7d;
-$grigio-chiaro: #525252;
-$pazio-linea: 16px;
-$width-totale: 100%;
+body {
+  font: 12px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font: inherit;
+  color: $nero;
+  font-size: 36px;
+  line-height: $spazo-linea;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+h2 {
+  font: inherit;
+  color: $grigio;
+  font-size: 20px;
+  line-height: $spazo-linea;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+p {
+  text-align: left;
+  margin: 0 0 15px 0;
+  font-size: 12px;
+  color: $grigio-chiaro;
+  font: inherit;
+}
+
+b {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px/5px;
+  text-align: justify;
+}
+
+a {
+  color: $grigio-chiaro;
+  text-decoration: none;
+}
+
+#cover {
+  max-width: $width-tot;
+  height: 230px;
+  background-image: url("http://percorsoverde.it/wp-content/uploads/2012/07/itemtevere3-1200x230.jpg");
+  background-size: cover;
+}
+
+.hover {
+ background-color: #23527c;
+ text-decoration: none;
+ color: $bianco;
+ transition: all .2s linear;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  diplay: inline;
+}
+
+iframe {
+  width: $width-tot;
+
+  .inline {
+      width: $width-tot;
+  }
+
+  .testo-video {
+      padding-left: 24px;
+  }
+}
+
+.room {
+width: $width-tot;
+  .full-width {
+      width: $width-tot;
+      display: block;
+}
+a.link-button {
+font-size: 10px;
+font-weight: bold;
+background: #2083d5;
+color: $bianco;
+text-transform: uppercase;
+padding: 5px 15px;
+border-radius: 3px;
+
+@extend .hover;
+}
+}

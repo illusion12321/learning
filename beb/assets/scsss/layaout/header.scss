@@ -1,0 +1,26 @@
+.header {
+width: $width-tot;
+height: 50px;
+background: rgba(48, 160, 46, 0.8);
+position: fixed;
+
+.grid6{
+height: 100%;
+
+.link-button a {
+background: #1a74be;
+color: $bianco;
+border-radius: 3px;
+padding: 5px 15px;
+border: none;
+color: $bianco;
+font-weight: bold;
+font-size: 10px;
+text-transform: uppercase;
+
+img{
+padding: 15px 0px;
+}
+  }
+}
+}
